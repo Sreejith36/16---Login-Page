@@ -9,23 +9,22 @@
 </head>
 <body>
     <div class="main">
-        <!-- <h1>Login Form</h1> -->
         <div class="login">
             <form action="">
                 <div>
                     <h2>Login</h2>
                 </div>
                 <div>
-
-                    <input type="text" class="textarea" placeholder="user name">
+                    <input id="user-name" type="text" class="textarea" autocomplete="off" placeholder="user name">
                 </div>
                 <div>
-
-                    <input type="password" class="textarea" placeholder="password">
+                    <input id="password" type="password" class="textarea" placeholder="password">
+                </div>
+                <div class="show">
+                    <input type="checkbox" onclick="showme()" name="show" >Show Password
                 </div>
                 <div>
-
-                    <input type="button" class="textbtn" value="Login">
+                    <input type="button" onclick = "click1()" class="textbtn" value="Login">
                 </div>
             </form>
             <div class="details">
@@ -41,6 +40,8 @@
             </div>
         </div>
     </div>
+
+    <script src="connect.js"></script>
     
 </body>
 </html>
