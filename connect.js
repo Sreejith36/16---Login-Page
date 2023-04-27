@@ -2,9 +2,7 @@
 function click1() {
     var v  = document.getElementById("user-name").value;
     var pw = document.getElementById("password").value;
-    // document.getElementById("display").innerHTML = v;
     if(v == "admin" && pw == "enter2563"){
-        // alert("Correct");
         location.replace("welcomeUser.html");
     }  
 
